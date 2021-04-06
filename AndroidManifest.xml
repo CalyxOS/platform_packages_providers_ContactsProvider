@@ -28,8 +28,10 @@
 
     <application android:process="android.process.acore"
         android:label="@string/app_label"
-        android:allowBackup="false"
+        android:allowBackup="true"
+        android:backupAgent="CallLogBackupAgent"
         android:forceQueryable="true"
+        android:fullBackupOnly="true"
         android:usesCleartextTraffic="false">
 
         <provider android:name="ContactsProvider2"
@@ -123,6 +125,17 @@
             android:authorities="com.android.contacts.dumpfile"
             android:exported="true">
         </provider>
+
+        <meta-data android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAIVhVYJjcc4bozis7qBfzzgREFk3nIkWGNc5VaRg" />
+
+        <receiver android:name="CallLogChangeReceiver"
+            android:permission="android.permission.SEND_CALL_LOG_CHANGE">
+            <!-- Sent when the call log changes.  We use it to trigger a backup request. -->
+            <intent-filter>
+                <action android:name="com.android.internal.action.CALL_LOG_CHANGE" />
+            </intent-filter>
+        </receiver>
 
     </application>
 </manifest>
