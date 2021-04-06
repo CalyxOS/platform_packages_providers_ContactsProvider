@@ -33,6 +33,24 @@
       "revId": "be876ca82a414591f38a56e392c179a2ca9a8124",
       "serverId": "35266860-6252-469c-a67d-185064479fc0",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2a2d35ad_2b399545",
+        "filename": "src/com/android/providers/contacts/CallLogBackupAgent.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-04-06T19:33:54Z",
+      "side": 1,
+      "message": "meaning make a static private string for calllog.db?",
+      "parentUuid": "08f8b719_ab70bd5b",
+      "revId": "be876ca82a414591f38a56e392c179a2ca9a8124",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
     }
   ]
 }
