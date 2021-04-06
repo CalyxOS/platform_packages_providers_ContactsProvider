@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "dd878fc1_6379dbd6",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-04-06T19:36:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "03a1191a_f3d94b00",
+      "revId": "be876ca82a414591f38a56e392c179a2ca9a8124",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "08f8b719_ab70bd5b",
         "filename": "src/com/android/providers/contacts/CallLogBackupAgent.java",
         "patchSetId": 1
@@ -51,6 +69,24 @@
       "revId": "be876ca82a414591f38a56e392c179a2ca9a8124",
       "serverId": "35266860-6252-469c-a67d-185064479fc0",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0c46ae1a_a3ae46b3",
+        "filename": "src/com/android/providers/contacts/CallLogBackupAgent.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-04-06T19:36:29Z",
+      "side": 1,
+      "message": "Na, if it was available elsewhere.",
+      "parentUuid": "2a2d35ad_2b399545",
+      "revId": "be876ca82a414591f38a56e392c179a2ca9a8124",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": false
     }
   ]
 }
