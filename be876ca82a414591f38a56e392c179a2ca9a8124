@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "03a1191a_f3d94b00",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-04-06T19:26:34Z",
+      "side": 1,
+      "message": "Drop this, it\u0027s only for proprietary Drive backup.",
+      "revId": "be876ca82a414591f38a56e392c179a2ca9a8124",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "08f8b719_ab70bd5b",
+        "filename": "src/com/android/providers/contacts/CallLogBackupAgent.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-04-06T19:26:34Z",
+      "side": 1,
+      "message": "Man, this is fun. Any variable you can use for this by any chance?",
+      "revId": "be876ca82a414591f38a56e392c179a2ca9a8124",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
