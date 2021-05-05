@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8af09d23_04c2d4c4",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-05T03:57:10Z",
+      "side": 1,
+      "message": "nbd but this says Contact Storage.\n\nmaybe we can change it to Contacts and Call log Storage in a follow up patch?",
+      "revId": "88173f6e74a0e174c75de10e1a69360246ac8cc7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
