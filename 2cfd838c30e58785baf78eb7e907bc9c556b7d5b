@@ -16,6 +16,24 @@
       "message": "I guess this is fine if CallLogBackup is currently a no-op and it\u0027s not needed for migration or any other scenarios like that",
       "revId": "2cfd838c30e58785baf78eb7e907bc9c556b7d5b",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a18cc5d6_04c9521d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-07-14T19:27:00Z",
+      "side": 1,
+      "message": "Actually, that was the concern we had. What if somebody has an old backup which was done when it was still CallLogBackup - they likely wouldn\u0027t be able to restore that :(",
+      "parentUuid": "da0c3b28_8be0fec9",
+      "revId": "2cfd838c30e58785baf78eb7e907bc9c556b7d5b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
