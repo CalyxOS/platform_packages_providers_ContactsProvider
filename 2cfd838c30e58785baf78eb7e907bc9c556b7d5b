@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "da0c3b28_8be0fec9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-07-14T19:24:50Z",
+      "side": 1,
+      "message": "I guess this is fine if CallLogBackup is currently a no-op and it\u0027s not needed for migration or any other scenarios like that",
+      "revId": "2cfd838c30e58785baf78eb7e907bc9c556b7d5b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
