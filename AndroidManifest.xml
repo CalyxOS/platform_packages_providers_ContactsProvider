@@ -136,13 +136,5 @@
             android:exported="true">
         </provider>
 
-        <receiver android:name="CallLogChangeReceiver"
-            android:permission="android.permission.SEND_CALL_LOG_CHANGE">
-            <!-- Sent when the call log changes.  We use it to trigger a backup request. -->
-            <intent-filter>
-                <action android:name="com.android.internal.action.CALL_LOG_CHANGE" />
-            </intent-filter>
-        </receiver>
-
     </application>
 </manifest>
