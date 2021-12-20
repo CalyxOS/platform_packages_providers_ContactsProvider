@@ -18,6 +18,7 @@ package com.android.providers.contacts;
 
 import android.app.backup.FullBackupAgent;
 import android.app.backup.FullBackupDataOutput;
+import android.util.Log;
 
 import java.io.IOException;
 
@@ -30,7 +31,7 @@ public class CallLogBackupAgent extends FullBackupAgent {
 
     @Override
     public void onFullBackup(FullBackupDataOutput data) throws IOException {
-        fullBackupFile(getDatabasePath("calllog.db"), data);
+        Log.d(TAG, "Not doing full backup, since we switched back to AOSP K/V backup");
     }
 
 }
