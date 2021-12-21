@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e4473ba3_3000f65e",
+        "filename": "src/com/android/providers/contacts/CallLogChangeReceiver.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2021-12-21T14:47:28Z",
+      "side": 1,
+      "message": "Is this how other apps are interacting with the BackupManager? Is creating a new instance of this working?",
+      "revId": "a8cbbcedc4544245bb2299d656a6dfa54e33940a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
