@@ -16,6 +16,24 @@
       "message": "Is this how other apps are interacting with the BackupManager? Is creating a new instance of this working?",
       "revId": "a8cbbcedc4544245bb2299d656a6dfa54e33940a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cddec6eb_27cb541c",
+        "filename": "src/com/android/providers/contacts/CallLogChangeReceiver.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-21T14:49:23Z",
+      "side": 1,
+      "message": "I think this does work, it shipped in 11.\n\nFor 12 it\u0027s not relevant anyway, if you look at the change right after this one.",
+      "parentUuid": "e4473ba3_3000f65e",
+      "revId": "a8cbbcedc4544245bb2299d656a6dfa54e33940a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
