@@ -16,6 +16,23 @@
       "message": "Code looks good, but should definitely get tested.",
       "revId": "c356c41d151da2ba4ea15b3af218cba1bb9b1690",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f8f7ccf1_d2325a5a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-29T21:24:24Z",
+      "side": 1,
+      "message": "Works:\n\n12 build with this included, backs up Contacts fine - it sets the user full data backup aware setting we found.\n\nRestored an 11 backup with this, it restored \"Contacts Storage\" fine, and I see the relevant local contacts.",
+      "revId": "c356c41d151da2ba4ea15b3af218cba1bb9b1690",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
