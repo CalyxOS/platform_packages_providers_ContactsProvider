@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f645edc_d49d82fc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-08-22T15:49:05Z",
+      "side": 1,
+      "message": "Not sure if we\u0027re using this anymore. Let\u0027s double check before we merge. The next patch in the chain reverts this",
+      "revId": "a8d7d0fb4c8905e9f440f80da8d2558287143fd1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
