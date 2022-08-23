@@ -16,6 +16,24 @@
       "message": "Not sure if we\u0027re using this anymore. Let\u0027s double check before we merge. The next patch in the chain reverts this",
       "revId": "a8d7d0fb4c8905e9f440f80da8d2558287143fd1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db4114b4_9634a42a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-08-23T20:39:42Z",
+      "side": 1,
+      "message": "We might be able to skip both, need to double check.",
+      "parentUuid": "1f645edc_d49d82fc",
+      "revId": "a8d7d0fb4c8905e9f440f80da8d2558287143fd1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
